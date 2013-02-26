@@ -20,7 +20,7 @@
 		<h1 class="uppercase">Twitter Search</h1>
 		<form name="searchform" id="searchform">
 			<label for="search">Search</label>
-			<input type="text" name="search" id="search" placeholder="Search" value="" />
+			<input type="text" name="search" id="search" placeholder="Search" value="" required />
 			<button>Go</button>	
 		</form>		
 		<ul class="tweets"></ul>
@@ -31,5 +31,19 @@
 	</footer>
 </div>
 <script src="search.js"></script>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=6050754; 
+var sc_invisible=1; 
+var sc_security="4d364497"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="free hit
+counter" href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/6050754/0/4d364497/1/"
+alt="free hit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>
